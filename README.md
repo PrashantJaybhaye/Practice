@@ -1,5 +1,5 @@
 # Coffee Website
-![Coffee Banner](coffee%20Website/Assets/Readme.png)
+![Live Preview](coffee%20Website/Assets/Readme.jpg)
 This is a static website showcasing coffee products, Built using HTML and CSS.
 
 ## Live Demo
