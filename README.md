@@ -6,10 +6,10 @@ This is a static website showcasing coffee products, Built using HTML and CSS.
 - [Click here to view the live project on Vervel](https://coffeewebsite-six.vercel.app)
 
 ## Project Structure
-- `coffee-website/`: Contains all files for the coffee Website.
-- `cars/`: Another project in this repository.
+- `Coffee-website/`: Contains all files for the coffee Website.
+- `Auction cars/`: Another project in this repository.
 
 ## How to Use
-- Clone this repo: `git clone https://github.com/your-username/practice.git`
-- Navigate to the folder: `cd coffee-website`
+- Clone this repo: `git clone https://github.com/prashantjaybhaye/practice.git`
+- Navigate to the folder: `cd coffee-Website`
 - Open `index.html` in your browser.
