@@ -1,9 +1,10 @@
 # Coffee Website
+![Coffee Banner](coffee%20Website/Assets/Readme.png)
 This is a static website showcasing coffee products, Built using HTML and CSS.
 
 ## Live Demo
-- [Click here to view the live project on Netlify](https://prashant-coffee-website.netlify.app/)
-- [Click here to view the live project on Vervel](https://coffeewebsite-six.vercel.app)
+- [🌐 View on Netlify](https://prashant-coffee-website.netlify.app/)
+- [🌐 View on Vercel](https://coffeewebsite-six.vercel.app)
 
 ## Project Structure
 - `Coffee-website/`: Contains all files for the coffee Website.
