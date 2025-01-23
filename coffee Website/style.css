@@ -1,27 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-*{
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-     
+
 }
 
-body,html{
+body,
+html {
     background-color: #3f0404;
     font-family: "Poppins", serif;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
-a{
+a {
     font-weight: 700;
     text-decoration: none;
     color: white;
 }
-   /* Navigation bar */
-nav{
+
+/* Navigation bar */
+nav {
     color: white;
     background-color: #3f0404;
     display: flex;
@@ -30,29 +33,29 @@ nav{
     justify-content: space-between;
 }
 
-.tabs ul{
+.tabs ul {
     display: flex;
     gap: 35px;
 }
 
-.tabs ul li{
+.tabs ul li {
     padding: 10px 5px;
 }
 
-.tabs ul li a:hover{
+.tabs ul li a:hover {
     color: orangered;
 }
 
-   /* section */
+/* section */
 
-.container{
+.container {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-   
+
 }
 
-.container .data{
+.container .data {
     padding-top: 20vh;
     padding-left: 10vw;
     color: white;
@@ -61,7 +64,7 @@ nav{
     text-align: start;
 }
 
-.container img{
+.container img {
     cursor: pointer;
     text-align: center;
     justify-content: center;
@@ -69,7 +72,7 @@ nav{
     transform: scaleX(-1);
 }
 
-.container h3{
+.container h3 {
     cursor: pointer;
     font-family: "Dancing Script", cursive;
     font-weight: 800;
@@ -77,28 +80,28 @@ nav{
     font-size: 3rem;
 }
 
-.container .caption{
+.container .caption {
     cursor: pointer;
     font-weight: 700;
     font-size: 1.2rem;
 }
 
-.container p{
+.container p {
     cursor: pointer;
     font-size: small;
 }
 
-.inner{
+.inner {
     display: flex;
     padding: 8px 5px;
 }
 
 .btn1,
-.btn2{
+.btn2 {
     padding: 8px;
 }
 
-.inner button{
+.inner button {
     cursor: pointer;
     padding: 15px 15px;
     border: none;
@@ -107,39 +110,39 @@ nav{
 
 }
 
-button:hover{
+button:hover {
     cursor: pointer;
     border: 1px solid orangered;
     background-color: #3f0404;
     color: orangered;
     transition: 0.5s ease;
 }
-   
-    /* another section */
 
-#Sales{
+/* another section */
+
+#Sales {
     margin-top: 23vh;
     padding: 10vh 3vw;
     background-color: white;
 }
 
-#Sales h1{
+#Sales h1 {
     cursor: pointer;
     text-align: center;
     padding: 10vh 8vw;
     color: #1E3932;
 }
 
-.disp-product{
+.disp-product {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
 }
 
-.product{
+.product {
     background-color: #f9f9f9;
     border-radius: 15px;
-    height: 22vw;
+    height: 17vw;
     width: 29.5vw;
     border-radius: 8px;
     display: flex;
@@ -147,49 +150,50 @@ button:hover{
     border: 1px solid #e4e4e4;
 }
 
-.desc{
+.desc {
+    bottom: 50%;
     top: 50%;
-    padding: 10px 8px;
+    padding: 1rem 2rem;
 
 }
 
-.desc h3{
+.desc h3 {
     cursor: pointer;
     font-size: 13px;
 }
 
-.desc .uni{
+.desc .uni {
     cursor: pointer;
     font-size: 12px;
     color: #212529;
 }
 
-.product .image img{
+.product .image img {
     border-radius: 50%;
 }
 
-.product .image{
+.product .image {
     margin-top: 1rem;
     margin-left: 1rem;
     margin-right: 0.5rem;
     align-items: center;
 }
 
-.price{
+.price {
     cursor: pointer;
     font-size: 12px;
     font-weight: 700;
 }
 
-.desc .add-btn{
+.desc .add-btn {
+    bottom: 30%;
     padding-top: 2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
 
-.desc .add-btn button{
+.desc .add-btn button {
     cursor: pointer;
     padding: 10px 16px;
     border: none;
@@ -200,11 +204,11 @@ button:hover{
     border-radius: 40px;
 }
 
-.desc .add-btn button:hover{
+.desc .add-btn button:hover {
     background-color: #032c05;
 }
 
-span{
+span {
     cursor: pointer;
     font-size: 9px;
 }
@@ -236,33 +240,39 @@ footer {
     margin-top: 0.5rem;
 }
 
-.footer-links, .footer-social {
+.footer-links,
+.footer-social {
     flex: 1;
 }
 
-.footer-links h3, .footer-social h3 {
+.footer-links h3,
+.footer-social h3 {
     cursor: pointer;
     font-size: 1.2rem;
     margin-bottom: 1rem;
 }
 
-.footer-links ul, .footer-social ul {
+.footer-links ul,
+.footer-social ul {
     list-style: none;
     padding: 0;
 }
 
-.footer-links ul li, .footer-social ul li {
+.footer-links ul li,
+.footer-social ul li {
     margin-bottom: 0.5rem;
 }
 
-.footer-links ul li a, .footer-social ul li a {
+.footer-links ul li a,
+.footer-social ul li a {
     cursor: pointer;
     text-decoration: none;
     color: white;
     font-size: 0.9rem;
 }
 
-.footer-links ul li a:hover, .footer-social ul li a:hover {
+.footer-links ul li a:hover,
+.footer-social ul li a:hover {
     color: orange;
 }
 
